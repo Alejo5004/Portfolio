@@ -6,51 +6,158 @@
     <title>Andres Alejandro</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-gray-100 text-gray-900">
-    <header class="px-40 py-8 flex justify-between items-center">
+    <header class="px-40 py-8 flex justify-between items-center bg-gray-100 border-b-2 border-teal-600">
         <figure>
             <img src="./image/grecia.jpg" alt="" class="rounded-full h-12 w-12">
         </figure>
         <nav>
             <ul class="flex">
+                <li class="ml-4"><a href="#about_me">About me</a></li>
                 <li class="ml-4"><a href="#portfolio">Portfolio</a></li>
                 <li class="ml-4"><a href="#contact_me">Contact me</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="px-48 my-16 text-center">
-            <h1 class="font-bold text-5xl">Desarrollardor Fond-end & Back-end</h1>
-            <p class="mb-24">Desarollador apacionado por los retos y experimentar nuevas cosas</p>
+        <section id="home" class="px-48 my-16 text-center">
+            <h1>Desarrollardor Fond-end & Back-end</h1>
+            <p class="mb-24">Desarollador apacionado por los retos y experimentar nuevas cosas.</p>
             <figure>
                 <img src="./image/grecia.jpg" alt="" class="rounded-full h-56 w-56 m-auto">
             </figure>
         </section>
 
-        <section id="skills" class="text-center py-16">
+        <section id="about_me" class="text-center py-16 mb-8">
             <article class="bg-teal-600 text-gray-100 pb-64">
-                <h2 class="text-4xl pt-4">Habilidades</h2>
-                <p>Siempre me gusta aprender nuevas cosas</p>
+                <h2 class="pt-16">Hola soy Andres Alejandro </h2>
+                <p class="mb-16 w-2/3 m-auto">
+                    Desde que empece mi viaje como desarrollador web, he realizado mutiples trabajos remotos con diferentes empresas, también he aplicado a empresas donde mis compañeros me han ayudado a crecer.
+                    Siempre estoy creando y aprendiendo nuevas cosas para que así mejorar cada día como desarrollador web.
+                </p>
             </article>
             <article class="px-48 -mt-64">
                 <div class="py-8 flex justify-between">
-                    <div class="w-1/3 bg-gray-100 rounded-l-lg p-8 border-r-2 border-l-2 border-b-2">
-                        <h4 class="text-2xl mb-4">Frond-End</h4>
+                    <div class="w-1/3 bg-gray-100 rounded-l-lg p-8 border-r-2 border-l-2 border-b-2 border-teal-600">
+                        <i class="far fa-browser text-6xl text-teal-600"></i>
+                        <h3 class="mb-4">Frond-End</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi architecto vel ratione consequuntur quibusdam, dicta unde culpa iure ipsum rerum dolor tempora ullam quod nisi error dolorem amet hic!
+                            Mis comienzos como desarrollador fueron de crear interfacez para los usuario.
                         </p>
+                        <h4 class="pt-8 pb-4 text-teal-600">Habilidades</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Pug</li>
+                            <li>Saas</li>
+                            <li>Jquery</li>
+                            <li>Vue js</li>
+                            <li>Bootstrap</li>
+                            <li>Tailwindcss</li>
+                            <li>Responsive Desing</li>
+                        </ul>
                     </div>
-                    <div class="w-1/3 bg-gray-100 p-8 border-r-2 border-b-2">
-                        <h4 class="text-2xl">Back-End</h4>
+                    <div class="w-1/3 bg-gray-100 p-8 border-r-2 border-b-2 border-teal-600">
+                        <i class="fas fa-server text-6xl text-teal-600"></i>
+                        <h3 class="mb-4">Back-End</h3>
+                        <p>
+                            Quise hacer aplicaciones web y para eso tuve que aprender base de datos y conectarme a esta.
+                        </p>
+                        <h4 class="text-2xl pt-8 pb-4 text-teal-600">Habilidades</h4>
+                        <ul>
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>SQL</li>
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                        </ul>
                     </div>
-                    <div class="w-1/3 bg-gray-100 rounded-r-lg p-8 border-r-2 border-b-2">
-                        <h4 class="text-2xl">Otros</h4>
+                    <div class="w-1/3 bg-gray-100 rounded-r-lg p-8 border-r-2 border-b-2 border-teal-600">
+                        <i class="far fa-chart-network text-6xl text-teal-600"></i>
+                        <h3 class="mb-4">Otros</h3>
+                        <p>
+                            He tenido que tomar varios roles en los proyectos que he realizado y me ha servido para aprender.
+                        </p>
+                        <h4 class="text-2xl pt-8 pb-4 text-teal-600">Habilidades</h4>
+                        <ul>
+                            <li>Git</li>
+                            <li>Wordpress</li>
+                        </ul>
                     </div>
                 </div>
             </article>
         </section>
+
+        <section id="portfolio" class="px-48 mb-24 pb-64 text-center">
+            <h2>Proyectos</h2>
+            <p class="mb-20">Estos son algunos de los proyectos mas importantes que he realizado tanto en equipo como de manera indivudual.</p>
+            <div class="grid gap-4 grid-cols-3">
+                <figure>
+                    <img src="./image/grecia.jpg" alt="" class="rounded">
+                </figure>
+                <figure>
+                    <img src="./image/grecia.jpg" alt="" class="rounded">
+                </figure>
+                <figure>
+                    <img src="./image/grecia.jpg" alt="" class="rounded">
+                </figure>
+                <figure>
+                    <img src="./image/grecia.jpg" alt="" class="rounded">
+                </figure>
+                <figure>
+                    <img src="./image/grecia.jpg" alt="" class="rounded">
+                </figure>
+                <figure>
+                    <img src="./image/grecia.jpg" alt="" class="rounded">
+                </figure>
+            </div>
+            <button class="px-8 py-4 border-2 border-teal-600 mt-8 rounded-lg">Mas Proyectos</button>
+        </section>
+
     </main>
+    <footer class="bg-teal-600 px-48 pb-24 pt-1 text-center">
+        <section id="contact_me" class="py-16 -mt-64">
+            <article class=" border-2 border-teal-600 p-8 px-20 bg-gray-100">
+                <h2 class="text-center mb-8">Contactame</h2>
+                <form action="" >
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label for="">Nombre</label>
+                            <input class="input focus:shadow-outline focus:outline-none" type="text">
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input class="input focus:shadow-outline focus:outline-none" type="text">
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="">Mensaje</label>
+                        <textarea class="input focus:shadow-outline focus:outline-none" type="text"></textarea>
+                    </div>
+                    <button class="bg-teal-600 py-4 px-8 rounded-lg text-gray-100">
+                        Enviar
+                    </button>
+                </form>
+            </article>
+        </section>
+        <div class="pt-8 text-gray-100">
+            <figure>
+                <img src="./image/grecia.jpg" alt="" class="rounded-full h-24 w-24 m-auto">
+            </figure>
+            <p class="mt-8">
+                Aprender y practicar para mejorar cada día.
+            </p>
+            <small>Creado por Andres Alejandro <i class="far fa-copyright"></i></small>
+        </div>
+        <ul class="flex justify-center pt-20">
+            <li class="mx-2"><a href="https://github.com/Alejo5004"><i class="fab fa-github text-5xl text-gray-100"></i></a></li>
+            <li class="mx-2"><a href="https://twitter.com/Alejo5004"><i class="fab fa-twitter text-5xl text-gray-100"></i></a></li>
+            <li class="mx-2"><a href="https://www.instagram.com/Alejo_5004/"><i class="fab fa-instagram text-5xl text-gray-100"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
